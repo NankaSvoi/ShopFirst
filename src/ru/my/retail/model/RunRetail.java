@@ -7,54 +7,85 @@ public class RunRetail {
     public static void main(String[] args) {
 
 
-        Meat[] container = {new Meat(700, "Говядина"), new Meat(450, "Свинина"), new Meat(600, "Баранина"), new Meat(500, "Оленина")};
-        for (Meat meat : container) {
-            System.out.println(meat);
-        }
-        System.out.println();
+//        Meat[] container = {new Meat(700, "Говядина"), new Meat(450, "Свинина"), new Meat(600, "Баранина"), new Meat(500, "Оленина")};
+//        for (Meat meat : container) {
+//            System.out.println(meat);
+//        }
+//        System.out.println();
+//
+//        Alcohol[] box = {new Alcohol("Пиво"), new Alcohol("Вино"), new Alcohol("Коньяк")};
+//        for (int alko = 0; alko < box.length; alko++) {
+//            System.out.println(box[alko]);
+//        }
+//        System.out.println();
 
-        Alcohol[] box = {new Alcohol("Пиво"), new Alcohol("Вино"), new Alcohol("Коньяк")};
-        for (int alko = 0; alko < box.length; alko++) {
-            System.out.println(box[alko]);
-        }
-        System.out.println();
 
-        Sweets1 candy[];
-        candy = new Sweets1[4];
-        candy[0] = new Sweets1("Сникерс", 50);
-        candy[1] = new Sweets1("Молочный шоколад", 100);
-        candy[2] = new Sweets1("Баунти", 40);
-        candy[3] = new Sweets1("Барни", 30);
-        for (Sweets1 sweets : candy) {
-            System.out.println(sweets);
-        }
+//        Sweets1 candy[];
+//        candy = new Sweets1[4];
+//        candy[0] = new Sweets1("Сникерс", 50);
+//        candy[1] = new Sweets1("Молочный шоколад", 100);
+//        candy[2] = new Sweets1("Баунти", 40);
+//        candy[3] = new Sweets1("Барни", 30);
+//        for (Sweets1 sweets : candy) {
+//            System.out.println(sweets);
+//        }
+//        System.out.println();
 
-        System.out.println();
+        Sweets1[] chocolate = {
+            new Sweets1("Шоколадные", 350), // 0
+            new Sweets1("Молочные", 400), // 1
+            new Sweets1("Белые", 300) // 2
+        };
 
-        Sweets1[] chocolate = {new Sweets1("Шоколадные", 350), new Sweets1("Молочные", 400), new Sweets1("Белые", 300)};
+//        System.out.println(chocolate[0].getName());
+//        System.out.println(chocolate[2]);
+
         int i = 0;
-        while (i < chocolate.length) {
+//        while (i < chocolate.length) {
+//            System.out.println(i);
+//            System.out.println(chocolate[i].getName());
+//            i++;
+//        }
+
+        int e = 0;
+        do {
+
             System.out.println(i);
-            i++;
-        }
+            System.out.println(e);
+
+            if (i < chocolate.length) {
+//                System.out.println(chocolate[i].getName());
+            }
+//            i++;
+            e++;
+
+        } while (e < 100 && true);
+//    } while (e > 100 || i < chocolate.length);
+
+//        System.out.println(i);
+
         System.out.println();
 
-      Drinks [] drinks = new Drinks[5];
-        drinks[0] = new Drinks("Pepsi", 60);
-        drinks[1] = new Drinks("Fanta", 45);
-        drinks[2] = new Drinks("Cola", 70);
-        drinks[3] = new Drinks("Sprite", 50);
-        drinks[4] = new Drinks("Water", 30);
-        int c = 0;
-        while (c < drinks.length) {
-            System.out.println(c);
-            c++;
-           for (Drinks water: drinks){
-               System.out.println(water);}
-        //   while (chocolate<3) {
-        //        chocolate++;
+//
+//      Drinks [] drinks = new Drinks[5];
+//        drinks[0] = new Drinks("Pepsi", 60);
+//        drinks[1] = new Drinks("Fanta", 45);
+//        drinks[2] = new Drinks("Cola", 70);
+//        drinks[3] = new Drinks("Sprite", 50);
+//        drinks[4] = new Drinks("Water", 30);
+//        int c = 0;
+//        while (c < drinks.length) {
+//            System.out.println(c);
+//            c++;
+//            for (Drinks water: drinks){
+//               System.out.println(water);}
+//            //   while (chocolate<3) {
+//            //        chocolate++;
+//        }
+//
 
-            }}}
+    } // main
+} // class
 
             //  int i = 1;
             //  while(i < 11){
